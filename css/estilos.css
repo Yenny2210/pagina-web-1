@@ -90,7 +90,8 @@ main .sobrenosotros {
 }
 
 .imagen-sobrenosotros {
-    width: 48%;
+    width: 400px;
+    height: 350px;
 }
 
 .sobrenosotros .contenido-textos {
