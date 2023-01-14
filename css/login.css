@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: #ec008c;
+    background: linear-gradient(to right, #fc6767ad, #ec008ec4),url('../img/lleno-de-amor.png');
+}
+
+.contenedor-login {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+form {
+    padding: 70px;
+    margin: 50px;
+    background-color: #ffffffce;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: dashed 40px #ff165c75;
+    border-radius: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #ff2e6d;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#ingresar {
+    border: none;
+    background-color: #ff8daf;
+    font-weight: bold;
+}
+
+#ingresar:hover {
+    border: none;
+    background-color: #ff578a;
+    font-weight: bold;
+    cursor: pointer;
+}
