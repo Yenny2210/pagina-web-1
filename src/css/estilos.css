@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #ff7d93;
+    color: #ff4343;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -27,12 +27,11 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #EF3B36;
-    background: -webkit-linear-gradient(to right, hsla(350, 100%, 88%, 0.699), hsla(2, 85%, 57%, 0.699)), url("../img/portada-selfLove.jpg");
-    background: linear-gradient(to right, hsla(350, 100%, 88%, 0.699), hsla(2, 85%, 57%, 0.699)), url("../img/portada-selfLove.jpg");
+    background: #ED213A;
+    background: linear-gradient(to right, #932a1e77, #ed21396c), url('../img/portada.jpg');
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -43,7 +42,6 @@ nav {
 
 nav>a {
     color: #ffffff;
-    font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -64,13 +62,7 @@ header .textos-header {
 
 .textos-header h1 {
     font-size: 50px;
-    color: white;
-}
-
-.textos-header h2 {
-    font-size: 30px;
-    font-weight: 300;
-    color: white;
+    color: #ffffff;
 }
 
 .wave {
@@ -103,7 +95,7 @@ main .sobrenosotros {
 }
 
 .contenido-textos h3 span {
-    background-color: #ff395a;
+    background-color: #ff4343;
     color: white;
     border-radius: 50%;
     display: inline-block;
@@ -155,7 +147,7 @@ main .sobrenosotros {
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: #ff5d787c;
+    background: #ff434396;
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -168,7 +160,7 @@ main .sobrenosotros {
 }
 
 .hover-galeria p {
-    color: #6d0024;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -183,7 +175,7 @@ main .sobrenosotros {
 }
 
 .cartas .carta {
-    background: #860631;
+    background: #a30000;
     display: flex;
     width: 46%;
     height: 200px;
@@ -245,7 +237,7 @@ main .sobrenosotros {
 
 /* footer */
 footer {
-    background-color: #412d30;
+    background-color: #5a0000;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;

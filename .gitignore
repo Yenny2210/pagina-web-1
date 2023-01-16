@@ -1,1 +1,2 @@
 # aca se anotan todos los archivos que quiero ignorar y no subir al git/github
+node_modules

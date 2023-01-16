@@ -5,8 +5,32 @@
 }
 
 body {
-    background: #ec008c;
-    background: linear-gradient(to right, #fc6767ad, #ec008ec4),url('../img/lleno-de-amor.png');
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/portada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+nav {
+    text-align: right;
+    padding: 30px;
+}
+
+a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
 }
 
 .contenedor-login {
@@ -19,17 +43,17 @@ body {
 }
 
 form {
-    padding: 70px;
-    margin: 50px;
-    background-color: #ffffffce;
+    padding: 50px;
+    background-color: #ffffffbb;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border: dashed 40px #ff165c75;
+    border: dashed 40px #ff4141c9;
+    border-radius: 10px;
 }
 
 label {
     font-weight: bold;
-    color: #ff2e6d;
+    color: #d40b0b;
 }
 
 h1 {
@@ -47,13 +71,14 @@ input {
 
 #ingresar {
     border: none;
-    background-color: #ff8daf;
+    background-color: #d40b0b;
+    color: white;
     font-weight: bold;
 }
 
 #ingresar:hover {
     border: none;
-    background-color: #ff578a;
+    background-color: #ff3c3c;
     font-weight: bold;
     cursor: pointer;
 }
